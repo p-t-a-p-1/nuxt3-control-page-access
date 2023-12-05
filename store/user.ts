@@ -26,7 +26,7 @@ export const useUserStore = defineStore('user', {
      * ユーザー情報をセット
      */
     setUser() {
-      const isAdmin = true
+      const isAdmin = false
 
       if (isAdmin) {
         this.roleId = ROLES.ADMIN.ID
