@@ -15,6 +15,7 @@ const handleLogoutClick = () => {
 
 <template>
   <h1>管理画面トップ</h1>
+  <NuxtLink to="/admin">管理者限定ページ</NuxtLink>
 
   <div v-if="isLogin">
     <p>ようこそ、{{ userStore.userName }}さん</p>
